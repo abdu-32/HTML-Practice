@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Abdu's Website</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link 
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    </head>
+    <body>
+<!--1. Head and basic properties-->
+        <header class = "head">
+            <h1 class = "head_title">Learn CSS with Abdu </h1>
+            <p class="head_description">
+                <b>What is CSS?
+                CSS (Cascading Style Sheets)</b> is a stylesheet language used to describe the look and formatting of a document written in HTML (or sometimes XML). It controls the visual presentation of web pages — how elements appear in terms of layout, colors, fonts, spacing, and responsiveness.
+            </p>
+        </header>
+<!--2. detail features-->
+        <section class="detail">
+            <div class="detail_container">
+                <div class="detail_item">
+                    <h3 class="detail_title" style="color: #6C757D;">
+                        Core purpose of CSS
+                    </h3>
+                    <p class="detail_description">
+                        While HTML provides the structure of a webpage (e.g., paragraphs, headings, images), CSS is responsible for the styling — such as making text red, aligning content, or making a layout responsive for different devices.
+                    </p>
+                </div>
+                <div class="detail_item">
+                    <h3 class="detail_title" style="color: #6C757D;">
+                        How CSS Works
+                    </h3>
+                    <p class="detail_description">
+                        CSS works by applying rules to HTML elements. A rule consists of a selector (which element to target) and a declaration block (the style to apply).<br/>
+                        CSS (Cascading Style Sheets) is a language used to style and format HTML elements on a webpage. It works by selecting elements and applying rules that define their appearance, such as colors, fonts, spacing, and layout. CSS can be written inline, inside a <b>style</b> tag, or in an external file. The browser reads both the HTML structure and CSS styles, then renders the content with the applied design. This separation of content and style makes web development cleaner and more efficient.
+                    </p>
+                </div>
+                <div class="detail_item">
+                    <h3 class="detail_title" style="color: #6C757D;">
+                        Types of CSS
+                    </h3>
+                    <p class="detail_description">
+                        <ol>
+                            <li><b>Inline CSS </b>– added directly inside HTML elements using the style attribute.<br/>
+                            Example: <b style="color: blue;">p style="color:red;"</b>
+                            </li>
+                            <li><b>Internal CSS</b> – placed inside a <b>style</b> tag within the <b>style</b> of the HTML file.<br/>
+                            Example: <b style="color: blue;">style<br/>
+                                                                h1 { color: green; }<br/>
+                                                                /style</b>
+                            </li>
+                            <li><b>External CSS</b> – written in a separate .css file and linked to the HTML.<br/>
+                            Example: <b style="color: blue;">link rel="stylesheet" href="style.css"</b> 
+                            </li>
+                        </ol>
+                    </p>
+                </div>
+                <div class="detail_item">
+                    <h3 class="detail_title" style="color: #6C757D;">
+                        Why Use CSS?
+                    </h3>
+                    <p class="detail_description">
+                        <ul>
+                            <li>Separates content (HTML) from presentation (CSS).</li>
+                            <li>Makes websites more maintainable and scalable.</li>
+                            <li>Supports responsive and accessible design.</li>
+                            <li>Enables rich user interfaces with minimal code.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+<!--color-->
+        <section class="contact">
+            <h3 class="contact_title">Learn more about our site</h3>
+            <p class="contact_descripition">
+                <ul>
+                    <li>Our platform is primarily focused on teaching individuals full-stack web development from beginner to advanced levels. The curriculum is carefully structured to provide a strong foundation in both frontend and backend technologies, ensuring learners gain the skills required to build complete and responsive web applications. The program starts with the basics of HTML, CSS, and JavaScript, which are essential for building and styling web interfaces.</li>
+                </ul>
+            </p>
+            <button class="contact_button">Learn More</button>
+        </section>
+<!--Box Model-->
+        <section class="box">
+            <h3 class="box_title">Expand your skills, shape the future.</h3>
+            <p class="box_description">
+                It's a call to action for anyone looking to grow in the tech world. By continuously learning and applying new knowledge, especially in areas like web development, design, and programming, you not only improve yourself but also contribute to building the digital future. Whether you're just starting or leveling up, every skill you gain helps shape the innovations of tomorrow.
+            </p>
+            <div class="box_controls">
+                <button class="box_button1">
+                    <i class="fas fa-book"></i> Learn More
+                </button>
+                <button class="box_button2">
+                    <i class="fas fa-play-circle"></i> Watch Video
+                </button>
+            </div>
+            <div class="box_container"></div>
+        </section>
+    </body>
+</html>
